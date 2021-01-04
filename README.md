@@ -41,9 +41,6 @@
 20.  京豆变动通知([jd_bean_change.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_bean_change.js))
 21.  以及其他一部分在特定时间可用的薅京豆脚本，如 [手机狂欢城](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js) 、[星推官](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js) 等。
 
-**脚本兼容: [QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), 小火箭, JSBox, Node.js**
-
-**TODO**
 
 - [x] 完善京小超脚本[jd_superMarket.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js)
 - [x] 京小超商圈助力功能[jd_superMarket.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js)
@@ -104,21 +101,3 @@
  2、所有脚本的cookie都可以备份，方便你迁移到其他支持box的软件。
 
  3、box可以支持多账号
-
-### 赞赏码(开发维护不易,请赏杯茶水费)
-<div align=center><img width="250" height="250" src="https://raw.githubusercontent.com/lxk0301/scripts/master/icon/thanks.jpg"/></div>
-
-### 特别感谢(排名不分先后)：
-* [@NobyDa](https://github.com/NobyDa)
-
-* [@chavyleung](https://github.com/chavyleung)
-
-* [@liuxiaoyucc](https://github.com/liuxiaoyucc)
-
-* [@Zero-S1](https://github.com/Zero-S1)
-
-* [@uniqueque](https://github.com/uniqueque)
-
-
-* [@nzw9314](https://github.com/nzw9314)
-aa
