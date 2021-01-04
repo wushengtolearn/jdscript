@@ -37,10 +37,8 @@
 16.  进店领豆([jd_shop.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js))
 17.  摇京豆([jd_club_lottery.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js))
 18.  全名开红包([jd_redPacket.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js))
-19.  京东多合一签到([jd_bean_sign.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_bean_sign.js)) 【可N个京东账号，Node.js专用，核心脚本是JD_DailyBonus.js， IOS软件用户请使用NobyDa的 [JD_DailyBonus.js](https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js) 】
+19.  京东多合一签到([jd_bean_sign.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_bean_sign.js)) 
 20.  京豆变动通知([jd_bean_change.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_bean_change.js))
-21.  以及其他一部分在特定时间可用的薅京豆脚本，如 [手机狂欢城](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js) 、[星推官](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js) 等。
-
 
 - [x] 完善京小超脚本[jd_superMarket.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js)
 - [x] 京小超商圈助力功能[jd_superMarket.js](https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js)
@@ -79,8 +77,6 @@
 
   - 方法四Docker安装Cookie请见各自的说明。
 
-### 方法五：iOS系统的代理软件（QuantumultX, Surge, Loon, 小火箭）
-
 #### 以下内容只针对iOS用户
 
 #### ios使用多个京东账号，需要使用BoxJs保存多会话进行切换 
@@ -100,6 +96,5 @@
 
  2、所有脚本的cookie都可以备份，方便你迁移到其他支持box的软件。
 
- 3、box可以支持多账号11
- 1
+ 3、box可以支持多账号.
  
