@@ -6,7 +6,7 @@ name: jd_club_lottery
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 16 * * *'
+    - cron: '15 16 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: lxk0301/jd_scripts
+          repository: wushengtolearn/jdscript
           ref: master
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
