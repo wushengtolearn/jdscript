@@ -6,7 +6,7 @@ name: jd_kd
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '20 18,23 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -36,7 +36,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京豆快递】'
+      - name: '运行 【东东kd】'
         run: |
           node jd_kd.js
         env:
@@ -44,10 +44,13 @@ jobs:
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
-          BARK_SOUND: ${{ secrets.BARK_SOUND }}
+          FRUITSHARECODES: ${{ secrets.FRUITSHARECODES }}
+          FRUIT_BEAN_CARD: ${{ secrets.FRUIT_BEAN_CARD }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
+          FRUIT_NOTIFY_CONTROL: ${{ secrets.FRUIT_NOTIFY_CONTROL }}
+          BARK_SOUND: ${{ secrets.BARK_SOUND }}
           DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
           IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
-          JD_818_SHAREID_NOTIFY: ${{ secrets.JD_818_SHAREID_NOTIFY }}
+
