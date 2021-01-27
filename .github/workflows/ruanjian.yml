@@ -21,7 +21,7 @@ jobs:
 
       - name: "更新iOS端3大订阅软件订阅配置"
         run: |
-          bash update_task.sh
+          update_task.sh
       - name: commit
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
