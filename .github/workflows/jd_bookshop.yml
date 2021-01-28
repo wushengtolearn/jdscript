@@ -3,7 +3,7 @@ name: jd_bookshop
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 17 * * *'
+    - cron: '33 18 * * *'
   watch:
     types: started
   repository_dispatch:
