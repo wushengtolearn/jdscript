@@ -6,7 +6,7 @@ name: jd_joy_feedPets
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3/20 */1 * * *'
+    - cron: '28,48 0,4,8 * * *'
   watch:
     types: [started]
   repository_dispatch:
