@@ -3,7 +3,7 @@ name: jd_bean egg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 19,21 * * *'
+    - cron: '7 19,21 * * *'
   watch:
     types: started
   repository_dispatch:
