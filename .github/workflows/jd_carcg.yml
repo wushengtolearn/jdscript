@@ -2,7 +2,7 @@ name: jd_carcg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 19 * * *'
+    - cron: '20 16 * * *'
   watch:
     types: started
   repository_dispatch:
