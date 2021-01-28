@@ -5,11 +5,11 @@ name: jd_collectProduceScore
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 17 * * *'
+    - cron: '12 17 * * *'
   watch:
     types: started
   repository_dispatch:
-    types: bean_sgin
+    types: collectProduceScore
 jobs:
   build:
 
@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京豆签到脚本】'
+      - name: '运行 【京豆cp脚本】'
         run: |
           node jd_collectProduceScore.js
         env:
