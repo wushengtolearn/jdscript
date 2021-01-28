@@ -36,9 +36,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【东东墨盒】'
+      - name: '运行 【东东nian】'
         run: |
-          node jd_mohe.js
+          node jd_nian.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
