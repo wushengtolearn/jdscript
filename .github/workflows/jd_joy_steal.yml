@@ -6,7 +6,7 @@ name: jd_joy_steal
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 16,22 * * *'
+    - cron: '35 17,22 * * *'
   watch:
     types: started
   repository_dispatch:
