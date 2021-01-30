@@ -38,7 +38,7 @@ jobs:
           npm install
       - name: '运行 【京豆签到脚本】'
         run: |
-          node jd_bean_sign.js
+          node jdsg.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
