@@ -1,7 +1,7 @@
 /*
 领京豆额外奖励&抢京豆
 脚本自带助力码，介意者可将 29行 helpAuthor 变量设置为 false
-入口：首页-领京豆
+入口：首页-领京豆QQ
 更新地址：https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js
 已支持IOS双京东账号, Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, 小火箭，JSBox, Node.js
@@ -25,7 +25,7 @@ const $ = new Env('领京豆额外奖励');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
-let jdNotify = true;//是否关闭通知，false打开通知推送，true关闭通知推送
+let jdNotify = false;//是否关闭通知，false打开通知推送，true关闭通知推送
 const helpAuthor = true; // 是否帮助作者助力，false打开通知推送，true关闭通知推送
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', message;
