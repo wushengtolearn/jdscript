@@ -16,7 +16,7 @@
 [Script]
 cron "0 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_sign.js,tag=京东极速版
 
-===============Surge=================
+===============Surge================
 京东极速版 = type=cron,cronexp="0 7 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_sign.js
 
 ============小火箭=========
