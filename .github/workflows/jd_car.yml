@@ -38,7 +38,7 @@ jobs:
           npm install
       - name: '运行 【东东nian】'
         run: |
-          node jd_car.js
+          node jd_chj.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
