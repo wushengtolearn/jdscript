@@ -68,7 +68,7 @@ jobs:
 
         run: |
 
-          node jd_kd.js
+          node jd_chj.js
 
         env:
 
