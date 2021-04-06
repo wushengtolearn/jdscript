@@ -1,4 +1,4 @@
-name: jd_speedsu
+name: jd_speed
 
 on:
 
@@ -68,7 +68,7 @@ jobs:
 
         run: |
 
-          node jd_speedsu.js
+          node jd_speed.js
 
         env:
 
