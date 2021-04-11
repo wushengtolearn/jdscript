@@ -2,7 +2,7 @@ name: jd_test
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '30 18 * * *'
   watch:
     types: started
   repository_dispatch:
