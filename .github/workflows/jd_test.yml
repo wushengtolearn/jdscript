@@ -32,9 +32,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京豆脚本test】'
+      - name: '运行 【京东脚本test】'
         run: |
-          node jd_chj.js
+          node jd_nzmh.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
