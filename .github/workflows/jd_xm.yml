@@ -34,7 +34,7 @@ jobs:
           npm install
       - name: '运行 【京东脚本xmtest】'
         run: |
-          node Xmsports.js
+          node xmSports.js
         env:
        
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
