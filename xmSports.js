@@ -35,7 +35,8 @@ let dataJSON = "%5B%7B%22data_hr%22%3A%22%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F9L%
 const headers = {
   'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
 }
-let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAADIKqJdxUdsAa99OHOXw50_SnwC_4sRDDq7GCzyN2yZeorDoi-grKnYbiNz_xfyxhD-Vt1YzHlMBc90RSXpl4TCyo01B79gR1vLe65JFcxsBlX1kQmRHbI0f3rooPCtLKhzzxoO8pEmQcmZ7g2yyemGWjqSS9LdqmmH5qZCneS1MpZkaG6sdlvluycZUy4hDvD31MqgNN2FQCiB2qi0xM54';
+let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAAFEuOjwtC0-cj1oqi7vG8yetwlPCa99BFLxPSMlqM7z4ZLvdVRCZzSujnv7gaRpat79SufdqQCa_fLVlU9GcyYo2iYLk5szKxu6ucGzD1KGpkvZCW598xTiY_KuX-AvSb4CH2g3u8wncF9RojUW8PQnTaxXc5Tt4hcjYWBm6TrXQN5m4nHH87rFLGeSOahvZ69rOuqQm4BKz2Xki4PXRSOU'
+//let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAADIKqJdxUdsAa99OHOXw50_SnwC_4sRDDq7GCzyN2yZeorDoi-grKnYbiNz_xfyxhD-Vt1YzHlMBc90RSXpl4TCyo01B79gR1vLe65JFcxsBlX1kQmRHbI0f3rooPCtLKhzzxoO8pEmQcmZ7g2yyemGWjqSS9LdqmmH5qZCneS1MpZkaG6sdlvluycZUy4hDvD31MqgNN2FQCiB2qi0xM54';
 //需要修改的运动步数波动范围，脚本默认修改步数范围为1w9到2w5
 const step = randomFriendPin($.getdata('xmMinStep')*1 || 19000, $.getdata('xmMaxStep')*1 || 25000);
 function getToken() {
