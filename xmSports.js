@@ -2,8 +2,7 @@
  * @Author: LXK9301 https://github.com/LXK9301
  * @Date: 2020-11-01 13:43:28 
  * @Last Modified by:   LXK9301
- * @Last Modified time: 2020-11-03 13:43:28 
- */
+ * @Last Modified time: 2020-11-03 13:43:28
 
 小米运动修改微信支付宝运动步数
 APP Store下载小米运动APP
